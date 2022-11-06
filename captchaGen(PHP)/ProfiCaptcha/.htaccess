@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^example/form.html$ example/form.html [L]
+RewriteRule ^example/form.php$ example/form.php [L]
+RewriteRule (.*) ShowCaptcha.php [L]
+
+
+
+
+
+

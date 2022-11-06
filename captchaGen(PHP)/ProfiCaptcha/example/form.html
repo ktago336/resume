@@ -1,0 +1,32 @@
+<form action="form.php" method="get">
+  <p><strong>Variant 1.</strong></p>
+  <label>
+  <strong>Enter your name:</strong> 
+  <input name="name" type="text" size="50" />
+  </label>
+  <p><strong>Enter protection code from the picture: </strong>
+    <img src="../ShowCaptcha.php" />
+    <input name="code" type="text" id="code" size="6" maxlength="5" />
+  </p>
+  <p>
+    <input type="submit" name="Submit" value="Submit" />
+    <input type="reset" name="Submit2" value="Reset" />
+</p>
+</form>
+<form action="form.php" method="get">
+   
+  <p><strong>Variant 2 (if your host supports .htaccess). </strong></p>
+   <label><strong>Enter your name:</strong>
+  <input name="name" type="text" size="50" />
+  </label>
+  <p><strong>Enter protection code from the picture: </strong>
+      <img src="../show.png" />
+      <label>
+      <input name="code" type="text" id="code" size="6" maxlength="5" />
+      </label>
+  </p>
+  <p>
+    <input type="submit" name="Submit3" value="Submit" />
+    <input type="reset" name="Submit22" value="Reset" />
+  </p>
+</form>

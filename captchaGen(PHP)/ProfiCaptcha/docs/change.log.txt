@@ -1,0 +1,32 @@
+* [0.2.2.0] 04 Oct 2007:
+ - Added sysmbols collection support; In ProfiCaptcha::__construct()
+   added 1st parameter - symbols array.
+ - CODES_COUNT_LIMIT now supports 0 as unlimited value of codes
+   saved in session;
+ - DIGITS_COUNT const renames as SYMBOLS_COUNT
+ - ProfiCaptcha::GetGeneratedNumber renamed to ProfiCaptcha::GetGeneratedCode
+* [0.2.2.1] 05 Oct 2007:
+ - CODES_COUNT_LIMIT bug was fixed
+ - some other small bugs fixed
+* [0.3.0.0] 06 Oct 2007:
+ - JPEG & GIF backgrounds formats support added
+ - All settings moved to Settings.php in static class ProfiCaptchaOptions
+ - Option "Limits of symbol rotation angle" added
+ - Auto calculation of sezes and coordinates
+ - Added blur filer (and option to enable/disable it)
+* [0.4.0.0] 06 Apr 2008:
+ - Background generation mode added
+ - Some font-size and colors relations tuned
+* [0.4.1.0] 07 Apr 2008:
+ - Blur filter function imagefilter replaced with imageconvolution with internal realization (works everywhere)
+* [0.4.1.1] 08 Apr 2008:
+ - Black holes bug fixed
+* [0.4.2.0] 08 Apr 2008:
+ - DRAW_NOISE_POWER added
+ - Nosing algorithm improved
+ - New fonts added
+ - Some bugs fixed
+* [0.5.0.0] 09 Apr 2008:
+ - Waves filter added
+* [0.5.0.1] 09 Feb 2008:
+ - Fonts directory reading: doesn't read files with names started with '.' (hidden files)

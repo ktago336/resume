@@ -1,0 +1,1 @@
+Sorting images in linux interfaced distributions (show image, waiting input, sort image to inputted directory, close image, next)
